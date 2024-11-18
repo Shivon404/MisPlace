@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Layout</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="aboutus_sidebar.css" rel="stylesheet"> <!-- Your custom styles -->
+    <link href="aboutus.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div id="sidebar">
+        <div class="text-center mb-5">
+            <img src="https://r2.erweima.ai/imgcompressed/img/compressed_bd04350e7b6b57642107a49ee6a00269.webp" alt="User Image" class="rounded-circle mb-2" width="60">
+            <h5>Ahmed</h5>
+            <p class="small">admin</p>
+        </div>
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Dashboard</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Messages <span class="badge bg-danger">3 new</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Reported Items</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Claim Requests</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">About Us</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Top Navigation Bar -->
+        <nav class="navbar navbar-light bg-light p-3">
+            <a class="navbar-brand" href="#">MisPlace</a>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Username, Item" aria-label="Search">
+            </form>
+            <div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://r2.erweima.ai/imgcompressed/img/compressed_bd04350e7b6b57642107a49ee6a00269.webp" alt="User Image" class="rounded-circle" width="40">
+                    Ahmed
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Central Content -->
+        <div class="responsive-container-block bigContainer">
+          <div class="responsive-container-block Container d-flex align-items-center mb-5">
+              <div class="col-md-6">
+                  <img class="mainImg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eaboutus1.svg" alt="Our Mission">
+              </div>
+              <div class="col-md-6 allText aboveText">
+                  <p class="text-blk headingText">Our Mission</p>
+                  <p class="text-blk subHeadingText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <p class="text-blk description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum pulvinar ullamcorper suspendisse ac eget. Pellentesque tempus leo in ullamcorper quis vestibulum ligula elementum ut.</p>
+                  <button class="explore">Explore</button>
+              </div>
+          </div>
+      
+          <div class="responsive-container-block Container d-flex align-items-center mb-5">
+              <div class="col-md-6">
+                  <img class="mainImg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/xpraup2.svg" alt="Our Vision">
+              </div>
+              <div class="col-md-6 allText bottomText">
+                  <p class="text-blk headingText">Our Vision</p>
+                  <p class="text-blk subHeadingText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <p class="text-blk description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum pulvinar ullamcorper suspendisse ac eget. Pellentesque tempus leo in ullamcorper quis vestibulum ligula elementum ut.</p>
+                  <button class="explore">Explore</button>
+              </div>
+          </div>
+      </div>
+      
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

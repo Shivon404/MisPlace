@@ -1,0 +1,113 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eff5ec;
+}
+
+#sidebar {
+    width: 250px;
+    min-height: 100vh;
+}
+
+.nav-item {
+    margin-bottom: 15px;
+}
+
+.nav-link:hover {
+    background-color: #495057;
+    border-radius: 5px;
+}
+
+.card-header {
+    background-color: #343a40;
+    color: white;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+}
+
+.report-card {
+    background-color: #f9f9f9; /* Light grey background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px 20px; /* Padding inside the card */
+    margin-bottom: 20px; /* Space between cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Animation for hover effect */
+}
+
+.report-card h4 {
+    font-family: 'Poppins', sans-serif; /* Poppins font for titles */
+    font-size: 1.25rem; /* Slightly larger title */
+    color: #333; /* Darker text color */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.report-card p {
+    font-family: 'Poppins', sans-serif; /* Poppins font for paragraphs */
+    color: #555; /* Medium grey text color */
+    margin-bottom: 10px; /* Space below paragraphs */
+}
+
+.report-card small {
+    color: #888; /* Lighter grey for small text */
+    font-size: 0.875rem; /* Slightly smaller font size for small text */
+}
+
+.report-card:hover {
+    transform: translateY(-5px); /* Lift the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.fun-card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fun-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.fun-card .card-title {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.fun-btn {
+    border-radius: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.fun-btn:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.fun-card h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Sidebar fixed position */
+.sidebar-fixed {
+    width: 280px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto; /* Allows scrolling within the sidebar */
+}
+
+/* Add a left margin to the main content to prevent overlap with the fixed sidebar */
+.content-margin {
+    margin-left: 280px;
+}
+
+.no-hover:hover {
+    background-color: transparent !important;
+    border: none !important;
+    cursor: default !important;
+}

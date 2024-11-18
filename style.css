@@ -1,0 +1,45 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #eff5ec;
+}
+
+#banner {
+  background-image: url('usc.png');
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Center the image */
+  padding: 20px;
+  color: white;
+}
+
+.shape {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.btn-custom {
+  background-color: #16940b; /* Change this to your desired background color */
+  border-color: #16940b; /* Match the border to the background color */
+  color: white; /* Text color */
+}
+
+.btn-custom:hover {
+  background-color: #a0e29a; /* Change this to your desired background color */
+  border-color: #a0e29a; /* Match the border to the background color */
+  color: white; /* Text color */
+}
+
+.shape-row {
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 4rem;
+  color: #333;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #333;
+}
