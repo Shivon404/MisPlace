@@ -1,0 +1,59 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .sidebar-fixed {
+    background-color: #343a40;
+  }
+  
+  .sidebar-fixed .btn-toggle {
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+  }
+  
+  .sidebar-fixed .btn-toggle:hover {
+    background-color: #495057;
+  }
+  
+  .sidebar-fixed a {
+    color: #fff;
+  }
+  
+  .content-margin {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .card-body form .form-control {
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .text-center button {
+    margin-top: 15px;
+  }
+  
+  button.btn-sm {
+    width: 150px;
+  }
+  
+  h2 {
+    font-weight: 600;
+  }
+  
